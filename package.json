@@ -2,7 +2,6 @@
   "name": "emis-sketchbook",
   "version": "0.1.0",
   "private": true,
-  "main": "https://emis-sketchbook.herokuapp.com/",
   "proxy": "https://emis-sketchbook.herokuapp.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -19,7 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "nodemon server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
