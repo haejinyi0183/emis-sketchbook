@@ -1,9 +1,11 @@
+import companyLogo from '../images/companyLogo.png'
+
 const Nav = () => {
   return (
     
       <header>
         <a href="/" className="companyName">
-        Emis Sketchbook</a>
+        {companyLogo}</a>
         <label>
           <input type="checkbox" />
           <span className="menu">
