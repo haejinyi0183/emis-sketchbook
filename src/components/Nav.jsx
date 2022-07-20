@@ -4,8 +4,7 @@ const Nav = () => {
   return (
     
       <header>
-        <a href="/" src={companyLogo} className="companyName">
-        </a>
+        <img href="/" src={companyLogo} className="companyName" alt='company logo' />
         <label>
           <input type="checkbox" />
           <span className="menu">
