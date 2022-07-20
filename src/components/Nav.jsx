@@ -17,11 +17,11 @@ const Nav = () => {
             </li>
             <li>
               {" "}
-              <a href="../pages/about">About</a>{" "}
+              <a href="/about">About</a>{" "}
             </li>
             <li>
               {" "}
-              <a href="../pages/contact">Contact</a>{" "}
+              <a href="/contact">Contact</a>{" "}
             </li>
           </ul>
         </label>
