@@ -21,6 +21,13 @@ body {
   padding-right: 2em;
 }
 
+.emiPic {
+  max-width: fit-content;
+  width: 50%;
+  height: 25%;
+  margin-left: 50%;
+}
+
 .footer {
   position: fixed;
 bottom: 0%; 
@@ -34,6 +41,13 @@ h1 {
   transform: translate(-50%, -50%);
   width: 80%;
   text-align: center;
+}
+
+.imageContainer {
+  display: table;
+  /* grid-gap: 10px; */
+  max-width: 100%;
+  height: auto;
 }
 
 label .menu {
@@ -132,9 +146,8 @@ label a {
 }
 
 .leafBK {
-  padding-top: 10%;
-  width: 100%;
-  height: auto;
+  /* padding-top: 10%; */
+  width: 90%;
   padding-right: 55%;
 }
 
