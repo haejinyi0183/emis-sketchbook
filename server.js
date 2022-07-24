@@ -13,11 +13,11 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
 })
 
-app.get('/about', async(req, res) => {
+app.get('/nail', async(req, res) => {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
 })
 
-app.get('/contact', async(req, res) => {
+app.get('/lash', async(req, res) => {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
 })
 
