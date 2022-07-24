@@ -6,7 +6,6 @@ html {
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
   max-width: 100vh;
-  background-image: url('images/cherryBlossom.jpg');
  }
 
 body {
@@ -59,7 +58,7 @@ label .hamburger {
   right: 20px;
   width: 30px;
   height: 2px;
-  background: #69D2e7;
+  background: #2a2a2a;
   display: block;
   -webkit-transform-origin: center;
   transform-origin: center;
@@ -75,7 +74,7 @@ label .hamburger:after, label .hamburger:before {
   display: block;
   width: 100%;
   height: 100%;
-  background: #69d2e7;
+  background: #ffffff;
 }
 
 label .hamburger:before { top: -10px; }
@@ -130,6 +129,13 @@ label a {
   color: #30acf3;
   text-decoration: none;
   
+}
+
+.leafBK {
+  padding-top: 10%;
+  width: 100%;
+  height: auto;
+  padding-right: 55%;
 }
 
 .middleSocial {
