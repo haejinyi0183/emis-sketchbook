@@ -6,6 +6,8 @@ html {
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
   max-width: 100vh;
+  background-color: #70dcde;
+  z-index: 99;
  }
 
 body {
@@ -19,6 +21,10 @@ body {
   text-decoration: none;
   padding-top: 1em;
   padding-right: 2em;
+}
+
+.container {
+  background-color: #70dcde;
 }
 
 .emiPic {
