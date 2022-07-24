@@ -1,7 +1,8 @@
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
-const About = () => {
+
+const Lash = () => {
   return (
     <div>
       <Nav />
@@ -10,4 +11,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Lash;

@@ -18,11 +18,11 @@ const Nav = () => {
             </li>
             <li>
               {" "}
-              <a href="/about">About</a>{" "}
+              <a href="/lash">Lash</a>{" "}
             </li>
             <li>
               {" "}
-              <a href="/contact">Contact</a>{" "}
+              <a href="/nail">Nail</a>{" "}
             </li>
           </ul>
         </label>

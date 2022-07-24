@@ -1,8 +1,7 @@
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
-
-const Contact = () => {
+const Nail = () => {
   return (
     <div>
       <Nav />
@@ -11,4 +10,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Nail;
