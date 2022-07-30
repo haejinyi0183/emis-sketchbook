@@ -1,10 +1,10 @@
-import companyLogo from '../images/companyLogo.png'
+import emiLogo from '../images/emiLogo.png'
 
 const Nav = () => {
   return (
     
       <header>
-        <img href="/" src={companyLogo} className="companyName" alt='company logo' />
+        <img href="/" width='30%' src={emiLogo} className="companyName" alt='company logo' />
         <label>
           <input type="checkbox" />
           <span className="menu">

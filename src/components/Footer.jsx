@@ -19,7 +19,7 @@ const Footer = () => {
         <img src={twitterLogo} alt="twitter icon" width="30px" />
       </a>
 
-      <p className="copyright mt-3">Emi Urasaki &copy; {getYear}</p>
+      <p className="copyright mt-3">Emis Nail & Lash &copy; {getYear}</p>
     </footer>
   );
 };
